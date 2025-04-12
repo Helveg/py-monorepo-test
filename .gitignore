@@ -2,3 +2,12 @@
 .nx/installation
 .nx/cache
 .nx/workspace-data
+
+# Coverage
+.coverage
+coverage/
+.pyc
+__pycache__/
+
+
+reports/

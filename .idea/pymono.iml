@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.nx/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/.nx/installation" />
+      <excludeFolder url="file://$MODULE_DIR$/.nx/workspace-data" />
+      <excludeFolder url="file://$MODULE_DIR$/coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/helveg-mono-test-dep/.venv/Lib" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/helveg-mono-test-dep/.venv/Scripts" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/helveg-mono-test/.venv/Lib" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/helveg-mono-test/.venv/Scripts" />
+      <excludeFolder url="file://$MODULE_DIR$/reports" />
+    </content>
     <orderEntry type="jdk" jdkName="Python 3.13" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
