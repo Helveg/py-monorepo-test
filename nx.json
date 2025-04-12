@@ -7,7 +7,10 @@
   },
   "plugins": [
     {
-      "plugin": "@nxlv/python"
+      "plugin": "@nxlv/python",
+      "options": {
+        "packageManager": "uv"
+      }
     }
   ]
 }
