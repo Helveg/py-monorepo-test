@@ -3,6 +3,12 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "library",
   "sourceRoot": "packages/helveg-mono-test-dep/helveg_mono_test_dep",
+  "release": {
+    "version": {
+      "generator": "@nxlv/python:release-version"
+    }
+  },
+  "tags": [],
   "targets": {
     "lock": {
       "executor": "@nxlv/python:lock",
@@ -86,12 +92,6 @@
       "executor": "@nxlv/python:publish",
       "options": {},
       "outputs": []
-    }
-  },
-  "tags": [],
-  "release": {
-    "version": {
-      "generator": "@nxlv/python:release-version"
     }
   }
 }

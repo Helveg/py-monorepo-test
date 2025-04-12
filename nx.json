@@ -12,5 +12,11 @@
         "packageManager": "uv"
       }
     }
-  ]
+  ],
+  "release": {
+    "projects": [
+      "helveg-mono-test",
+      "helveg-mono-test-dep"
+    ]
+  }
 }
