@@ -80,3 +80,9 @@ unfixable = []
 
 [tool.uv.sources]
 helveg-mono-test-dep = { path = "../helveg-mono-test-dep", editable = true }
+
+[[tool.uv.index]]
+name = "testpypi"
+url = "https://test.pypi.org/simple/"
+publish-url = "https://test.pypi.org/legacy/"
+default = true
